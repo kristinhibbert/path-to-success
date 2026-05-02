@@ -68,36 +68,92 @@ html {
   margin: 0 auto;
 }
 header {
-
+  background-color: var(--purple);
+  color: var(--white);
+  padding: 30px ;
+  text-align: center;
 }
 
-h1, h2 {}
+h1, h2 {
+  font-family: 'Kavoon', fantasy;
+  color: var(--white);
+}
 
-h3, h4, th {}
+h3, h4, th {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}
 
-p {}
+p {
+  font-family: 'Inter', sans-serif;
+  padding: 10px 25px 20px;
+  line-height: 25px;
+}
 
-h1 {}
+h1 {
+  font-size: 3em;
+}
 
-header > p {}
+header > p {
+  font-style: italic;
+}
 
-nav > h2 {}
+nav > h2 {
+  font-size: 1.5em;
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+  color: var(--dark-gray);
+  font-weight: bold;
+}
 
-nav {}
+nav {
+  background-color: var(--yellow);
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 15px 15px;
+}
 
-nav a {}
+nav a {
+  text-decoration: none;
+}
 
-h2 {}
+h2 {
+  font-size: 2em;
+  margin-left: 15px;
+  padding-top: 15px;
+}
 
-h3 {}
+h3 {
+  font-size: 1.5em;
+  color: var(--yellow);
+  margin-top: 5px;
+  margin-left: 5px;
+}
 
-h4 {}
+h4 {
+  font-size: 1.15em;
+  color: var(--purple);
+  margin-left: 25px;
+}
 
-main {}
+main {
+  background-color: var(--purple);
+}
 
-.box1 {}
+.box1 {
+  background-color: var(--white);
+  height: auto;
+  border-radius: 5%;
+  margin: 20px;
+}
 
-.menu {}
+.menu {
+  background-color: var(--white);
+  color: var(--purple);
+  padding: 15px;
+  margin: 10px;
+}
 
 table {}
 
