@@ -53,4 +53,57 @@ table {
 	border-spacing: 0;
 }
 /* ROOT VARIABLES */
+:root {
+  --teal :#4CA7C0;
+  --purple: #484FB7;
+  --lavender: #6B8FE7;
+  --yellow: #E9BB57;
+  --pink:#D9526F;
+  --dark-gray:#1E1E1E;
+  --white:#ffffff; 
+}
 /* GLOBAL STYLES */
+html {
+  max-width: 450px;
+  margin: 0 auto;
+}
+header {
+
+}
+
+h1, h2 {}
+
+h3, h4, th {}
+
+p {}
+
+h1 {}
+
+header > p {}
+
+nav > h2 {}
+
+nav {}
+
+nav a {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+main {}
+
+.box1 {}
+
+.menu {}
+
+table {}
+
+th {}
+
+td {}
+
+#take-the-first-step {}
+
