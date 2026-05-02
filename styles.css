@@ -66,6 +66,7 @@ table {
 html {
   max-width: 450px;
   margin: 0 auto;
+  background-color: var(--lavender);
 }
 header {
   background-color: var(--purple);
@@ -148,7 +149,7 @@ main {
   margin: 20px;
 }
 
-.menu {
+.menu > li {
   background-color: var(--white);
   color: var(--purple);
   padding: 15px;
@@ -159,8 +160,47 @@ img {
   margin: 25px;
 }
 
-#why-choose-us > li {
+#why-choose-us  {
+  background-color: var(--pink);
+}
+
+#why-choose-us > ul {
   font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px;
+  gap: 20px;
+}
+
+.approach {
+  background-color: var(--teal);
+  padding: 35px;
+  border-radius: 5%;
+  text-align: center;
+}
+
+.results {
+  background-color: var(--lavender);
+  padding: 35px;
+  border-radius: 5%;
+  text-align: center;
+}
+
+.environment {
+  background-color: var(--yellow);
+  padding: 35px;
+  border-radius: 5%;
+
+  text-align: center;
+}
+
+.options {
+  background-color: var(--white);
+  padding: 35px;
+  border-radius: 5%;
+
+  text-align: center;
 }
 
 table {
@@ -193,7 +233,22 @@ td {
   border-radius: 15px;
   padding: 20px 125px;
   border: var(--white);
-  margin-left: 45px;
+  margin-left: 35px;
   text-decoration: none;
-  font-family: 'Inter, sans-serif';
+  font-family: 'Inter', 'sans-serif';
+  font-weight: bold;
+  color: var(--dark-gray);
+}
+
+footer {
+  background-color: var(--purple);
+  color: var(--white);
+  font-family: 'Inter', 'sans-serif';
+  text-align: center;
+  padding: 50px;
+  font-size: smaller;
+}
+
+footer > a {
+  color: var(--white);
 }
